@@ -1,70 +1,63 @@
-# Getting Started with Create React App
+# 🎵 Drum Machine and Sequencer 🎧
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is an interactive drum machine built with React. It allows users to create and play drum sound sequences while adjusting the volume and BPM (beats per minute) of the music. The app also enables users to control the sound using the keyboard and make modifications to the sequence in real-time.
 
-## Available Scripts
+![Drum Machine](assets/drum-machine.jpg)
 
-In the project directory, you can run:
+## 🔧 Features
 
-### `npm start`
+- 🎤 **Drum Pads**: Each drum pad corresponds to a keyboard key (Q, W, E, A, S, D, Z, X, C).
+- 🎚️ **Volume Control**: Adjust the volume of the drum machine sounds.
+- 🕹️ **Sequencer**: Create sound sequences with up to 16 steps per track.
+- ⚡ **Adjustable BPM**: Change the speed of the sequence with the BPM control (from 60 to 240 BPM).
+- 🔑 **Keyboard Interaction**: Play drum sounds using the **Q, W, E, A, S, D, Z, X, C** keys on your keyboard.
+- ⏯️ **Sequence Playback**: Start and stop the sequence playback with control buttons.
+- 🖥️ **Built with React**: The user interface is built using React.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🖱️ How to Use
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. **Interacting with the Drum Pads**:
+   - Click the drum pads to play sounds.
+   - Use the **Q, W, E, A, S, D, Z, X, C** keys on your keyboard to play the corresponding sounds.
 
-### `npm test`
+2. **Control the Sequence**:
+   - **Start**: Click the **START** button to begin playing the sequence.
+   - **Stop**: Click the **STOP** button to stop the sequence.
+   - **Modify the Sequence**: Click on the steps in the sequencer to toggle them on or off.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+3. **Adjust Volume**:
+   - Use the **VOLUME** slider to adjust the sound volume.
 
-### `npm run build`
+4. **Adjust BPM**:
+   - Use the **BPM** slider to adjust the sequence speed (60-240 BPM).
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🎨 Technologies Used
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **React**: JavaScript library for building user interfaces.
+- **HTML5 Audio**: For audio playback in the browser.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🛠️ Installation
 
-### `npm run eject`
+1. Clone the repository:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   git clone [https://github.com/your_username/drum-machine.git](https://github.com/EddieBorbon/drum-machine)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🛠️ Installation
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+2. **Install the dependencies**:
+   npm install
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+3. **Start the app**:
+   npm start
 
-## Learn More
+The app will be available at [(https://eddieborbon.github.io/drum-machine/)](https://eddieborbon.github.io/drum-machine/)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 📜 License
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+This project is licensed under the MIT License. For more details, check the [LICENSE](LICENSE) file.
 
-### Code Splitting
+## 👨‍💻 Developer
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Developed by **Eddie Jonathan Garcia Borbon**.
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Have fun making music with the Drum Machine! 🎶
