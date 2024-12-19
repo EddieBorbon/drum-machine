@@ -2,6 +2,8 @@
 
 This project is an interactive drum machine built with React. It allows users to create and play drum sound sequences while adjusting the volume and BPM (beats per minute) of the music. The app also enables users to control the sound using the keyboard and make modifications to the sequence in real-time.
 
+![Drum Machine](assets/drum-machine.jpg)
+
 ## 🔧 Features
 
 - 🎤 **Drum Pads**: Each drum pad corresponds to a keyboard key (Q, W, E, A, S, D, Z, X, C).
