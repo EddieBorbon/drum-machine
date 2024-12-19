@@ -17,12 +17,12 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 20px;
-  width: 90%; /* Main container width */
-  max-width: 1200px; /* Maximum width limit */
+  gap: 10px;
+  width: 150%; /* Main container width */
+  max-width: 800px; /* Maximum width limit */
   height: 90%; /* Main container height */
-  max-height: 100vh; /* Maximum height limit */
-  padding: 20px; /* Inner padding to avoid content touching the edges */
+  max-height: 85vh; /* Maximum height limit */
+  padding: 10px; /* Inner padding to avoid content touching the edges */
 }
 
 /* Title */
@@ -46,14 +46,14 @@ body {
   box-shadow: 0 8px 80px rgba(0, 0, 0, 0.5);
   gap: 20px;
   border: 3px solid #444;
-  width: 100%; /* Drum Machine container width */
+  width: 150%; /* Drum Machine container width */
   flex: 1; /* Occupies available height */
   overflow: hidden; /* Prevents content overflow */
 }
 
 #display {
   width: 100%;
-  height: 80px;
+  height: 40px;
   background: #222;
   color: #00e6b8;
   display: flex;
@@ -115,7 +115,7 @@ body {
 
 .drum-pad {
   width: 100%; /* Full width */
-  height: 100px; /* Adjusted height */
+  height: 80px; /* Adjusted height */
   background: #00e6b8;
   color: white;
   display: flex;
@@ -295,7 +295,6 @@ body {
 }
 
 /* Layout */
-.left-section,
 .right-section {
   display: flex;
   flex-direction: column;
@@ -305,6 +304,14 @@ body {
   overflow: hidden; /* Prevents content overflow */
 }
 
+.left-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 50%; /* Both sections take 100% width on small screens */
+  flex: 0.3; /* Occupies available height */
+  overflow: hidden; /* Prevents content overflow */
+}
 /* Media Queries for Small Screens */
 @media (min-width: 768px) {
   #drum-machine {
