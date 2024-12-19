@@ -38,7 +38,7 @@ This project is an interactive drum machine built with React. It allows users to
 
 1. Clone the repository:
 
-   git clone https://github.com/your_username/drum-machine.git
+   git clone [https://github.com/your_username/drum-machine.git](https://github.com/EddieBorbon/drum-machine)
 
 ## 🛠️ Installation
 
@@ -48,7 +48,7 @@ This project is an interactive drum machine built with React. It allows users to
 3. **Start the app**:
    npm start
 
-The app will be available at [http://localhost:3000]([http://localhost:3000](https://eddieborbon.github.io/drum-machine/)).
+The app will be available at [[http://localhost:3000]([http://localhost:3000](https://eddieborbon.github.io/drum-machine/)).](https://eddieborbon.github.io/drum-machine/)
 
 ## 📜 License
 
